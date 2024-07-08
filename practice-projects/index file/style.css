@@ -27,6 +27,7 @@
 background: rgb(255, 255, 255);
 max-width: 1320px;
 margin: 0 auto;
+padding:120px 80px;
 
 }
 
@@ -36,8 +37,8 @@ margin: 0 auto;
     align-items: center;
     justify-content: center;
     gap:30px;
-    width: 1068px;
-height: 260px;
+    width:85%;
+/* height: 260px; */
 margin: 0 auto;
 margin-bottom: 68px;
 }
@@ -85,13 +86,13 @@ position: relative;
     width: 674.82px;
     height: 577.96px;
     position: absolute;
-  left: 50px;
+  /* left: 50px; */
   /* box-shadow: 10px 10px 5px lightblue; */
 }
 
 .left-side-image {
     position: absolute;
-    left: 68%;
+    left: 64.6%;
 
 }
 .Ellipse{
@@ -102,7 +103,7 @@ position: relative;
 }
 .discount{
     position: absolute;
-    right: -141px;
+    right: -155px;
 
 }
 
@@ -118,17 +119,19 @@ border-radius: 10px;
 
 
 }
+
 /* sales section-style ends here*/
 
 .portfolio-section{
+    padding:120px 80px;
+    max-width: 1320px;
   margin: 0 auto;
- margin-top :60%;
-  /* overflow:hidden; */
+ margin-top :530px;
   display: flex;
   flex-direction: column;
   align-items:start;
 justify-content: center;
-max-width: 1320px;
+
 }
 
 
@@ -187,15 +190,21 @@ margin-bottom: 16px;
 /* input section css style starts */
 
      .news-letter-sec{
-         border-radius: 16px;
-         background: rgba(255, 0, 0, 0.05);
-         padding: 80px 212px;
+        max-width: 1320px;
+        padding: 0px 78px;
+         margin: 0 auto;
+         margin-bottom: 120px;
+         
      }  
+
 .news-letter-wrap{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 212px ;
      }
 
 .news-letter-wrap h2{
@@ -212,7 +221,7 @@ margin-bottom: 16px;
 .news-letter-wrap p{
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0%;
@@ -227,7 +236,7 @@ margin-bottom: 16px;
 .news-input input{
     border-radius: 50px;
     background: rgb(255, 255, 255);
-    padding:25px 230px 25px 30px;
+    padding:25px 145px 25px 30px;
     color: rgba(7, 2, 17, 0.3);
 font-family: Inter;
 font-size: 18px;
@@ -235,19 +244,98 @@ font-weight: 400;
 line-height: 22px;
 letter-spacing: 0%;
 border: none;
-
 }
 
 .news-input button{
     border-radius: 0px 50px 50px 0px;
      background: rgb(255, 0, 0);
-     padding:28px 55px;
+     padding:28px 50px;
      border: none;
      position: absolute;
-     right: -117px;
+     right: -110px;
      /* top: 4px; */
      color: beige;
+     /* box-shadow: 10px 10px 10px black; */
  }
 
 /* input section css style ends */
+
+
+
+
+/* foooter design start-here */
+          
+
+   #contact-foot{
+    background-color: #070211;
+    max-width: 1320px;
+    margin:0 auto;
+    padding-top:100px ;
+    padding-bottom: 100px ;
+
+   }        
+
+   .address-wrap{
+       display:flex;
+       justify-content:space-around;
+       align-items: center;
+       gap:27%;
+
+
+   }
+   
+   .left-address p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+   }
+   .right-address{
+    
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .right-address {
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+   }
+
+.social-address{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 90px;
+}
+
+
+.bottom-footer{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40%;
+    margin-top: 98px;
+
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+/* foooter design ends-here */
 

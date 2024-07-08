@@ -39,7 +39,7 @@
 .contant-wrap{
     border-radius: 16px;
     background-repeat:no-repeat;
-    background-size:contain;
+    background-size:cover;
        width: 100%;
        text-align: center;
        /* margin:auto; */
@@ -66,9 +66,133 @@ letter-spacing: 0%;
 text-align: center;
 }
 
-   /* banner-hero-section-ends-here  */
+   /* banner-hero-style-ends-here  */
 
-.sche-conf{
+
+
+/* 65% off happy new years-style -start-here */
+
+.happy-new-year-section
+{
+display: flex;
+flex-direction: column;
+gap: 40px;
+align-items:center;
+justify-content: center;
+padding:110px 80px 30px 80px;
+}
+
+.hppy-title h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom:48px;
+}
+.hppy-title span{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom:16px;
+    display: block;
+} 
+.hppy-title h3
+{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.hppy-image{
+    width: 750.9px;
+height: 500px;
+margin: auto;
+border: 1px dashed #b9b7b7;
+}
+
+.hppy-image img{
+    width:100%
+}
+
+
+/* happy-new-year-style-ends-here */
+
+
+/* welcome-party-section-style-start-here */
+
+.welcome-party-sec{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 75px 80px 0px 80px;
+    
+}
+
+.welcome-party-whole-wrap{
+    padding: 100px 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 50px;
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) , url("../asset/images/Vectorrr.png");
+}
+
+.welcome-party-wrap h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    margin-bottom:50px;
+
+} 
+
+.welcome-party-wrap p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom:30px;
+}
+
+.welcome-party-wrap span{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* welcome-party-section-style-ends-here */
+
+
+
+ /* conference-schedule-section-style- start */
+   
+   .sche-conf{
     max-width: 1320px;
     margin: 0 auto;
     padding: 100px 0px;
@@ -117,10 +241,133 @@ margin-top:35px;
 transition: .5s;
 }
 
-/* conference-schedule-section start */
+ /* conference-schedule-section-style- end */
 
-/* sales section-style start here
-*/
+
+
+/* best-offer-styles-start-here */
+        
+.best-offer-sec{
+    max-width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0px 80px 0px 80px;
+    
+}
+ 
+
+/* best-offer-left-side-content */
+
+.best-offer-left-side-content{
+    width: 33%;
+    
+
+}
+
+.best-offer-left-side-content span{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align:left;
+    margin-bottom: 16px;
+    display: block;
+}
+.best-offer-left-side-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.best-offer-left-side-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* best-offer-middle-image */
+
+.best-offer-middle-image{
+    width: 34%;
+    
+    padding: 10px;
+}
+
+.best-offer-middle-image img{
+    width:80%;
+    margin: auto;
+    display: block;
+    border: 9px solid red; 
+    border-radius: 50%;
+    padding: 30px;
+}
+
+
+/* best-offer-right-side-content */
+
+
+.best-offer-right-side-content{
+    width: 33%;
+    text-align: start;
+    margin: auto;
+    padding: 30px 0px 30px 80px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+}
+.inner-best-offer-content{
+ display: flex;
+ align-items: start;
+ justify-content: center;
+ flex-direction: column;
+ gap: 30px;
+}
+
+.inner-best-offer-image{
+    border:1px dashed #b9b7b7;
+
+}
+.best-offer-right-side-content h2{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+.best-offer-right-side-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* best-offer-styles-ends-here */
+
+
+
+/* our discount section-style start here */
 
 .sales-section{ 
 
@@ -183,7 +430,7 @@ position: relative;
 } */
 
 .offers{
-    width: 674.82px;
+    width: 600.82px;
     height: 577.96px;
     position: absolute;
   /* left: 50px; */
@@ -192,7 +439,7 @@ position: relative;
 
 .left-side-image {
     position: absolute;
-    left: 64.6%;
+    right: 392px;
 
 }
 .Ellipse{
@@ -220,10 +467,13 @@ border-radius: 10px;
 
 }
 
-/* sales section-style ends here*/
+/* our discount section-style ends here*/
+
+
+/* our awesome portfolio section-style- start-here */
 
 .portfolio-section{
-    padding:120px 80px;
+    padding:80px 80px 120px 80px;
     max-width: 1320px;
   margin: 0 auto;
  margin-top :530px;
@@ -285,9 +535,11 @@ margin-bottom: 16px;
  
 }
 
+/* our awesome portfolio section-style- end here */
 
 
-/* input section css style starts */
+
+/* news letter-section style starts */
 
      .news-letter-sec{
         max-width: 1320px;
@@ -358,7 +610,7 @@ border: none;
      transition: 0.5s;
  }
 
-/* input section css style ends */
+/* news letter-section style ends */
 
 
 
@@ -374,13 +626,18 @@ border: none;
     padding-bottom: 100px ;
 
    }        
-
+   hr{
+    width: 87%;
+    margin: 0 auto;
+    border:1px solid #454545;
+    opacity: .5;
+   }
    .address-wrap{
        display:flex;
        justify-content:space-around;
        align-items: center;
        gap:27%;
-
+       margin-bottom: 85px;
 
    }
    
@@ -393,6 +650,7 @@ border: none;
     letter-spacing: 0%;
     text-align: left;
    }
+
    .right-address{
     
        display: flex;
@@ -411,13 +669,20 @@ letter-spacing: 0%;
 text-align: left;
    }
 
+.right-address  img{
+        margin-right: 10px;
+}
+
+
+
 .social-address{
     
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    margin-top: 90px;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 
@@ -436,6 +701,10 @@ font-weight: 500;
 line-height: 29px;
 letter-spacing: 0%;
 text-align: left;
+}
+
+.Unsubscribe{
+    cursor: pointer;
 }
 /* foooter design ends-here */
 

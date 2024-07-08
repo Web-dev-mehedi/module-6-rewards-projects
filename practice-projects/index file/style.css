@@ -25,8 +25,11 @@
 .sales-section{ 
 
 background: rgb(255, 255, 255);
+max-width: 1320px;
+margin: 0 auto;
 
 }
+
 .sales-desc-wrap{
     display: flex;
     flex-direction: column;
@@ -69,7 +72,7 @@ line-height: 32px;
 
 .offer-pic-wrap{
     position: relative;
-    max-width: 1320px;
+ 
     margin:auto;
 
 }
@@ -114,10 +117,137 @@ z-index: -1;
 border-radius: 10px;
 
 
+}
+/* sales section-style ends here*/
+
+.portfolio-section{
+  margin: 0 auto;
+ margin-top :60%;
+  /* overflow:hidden; */
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+justify-content: center;
+max-width: 1320px;
+}
+
+
+.portfolio-ti-desc-wrap{
+    margin-bottom: 48px;
+    width: 70%;
+}
+.portfolio-ti-desc-wrap h4{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+.portfolio-ti-desc-wrap h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.portfolio-ti-desc-wrap p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.portfolio-gird-wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:24px;
+   
+    margin:0 auto;
+   
+}
+
+.portfolio-gird-wrap img{
+    width:100%;
+ 
+}
+
+
+
+/* input section css style starts */
+
+     .news-letter-sec{
+         border-radius: 16px;
+         background: rgba(255, 0, 0, 0.05);
+         padding: 80px 212px;
+     }  
+.news-letter-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     }
+
+.news-letter-wrap h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+      margin: 46px 0px 22px 0px;
+}   
+.news-letter-wrap p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom:38px;
+}  
+
+
+.news-input{
+    position: relative;
+}
+.news-input input{
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    padding:25px 230px 25px 30px;
+    color: rgba(7, 2, 17, 0.3);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0%;
+border: none;
 
 }
-/* sales section-style ends here
-*/
 
+.news-input button{
+    border-radius: 0px 50px 50px 0px;
+     background: rgb(255, 0, 0);
+     padding:28px 55px;
+     border: none;
+     position: absolute;
+     right: -117px;
+     /* top: 4px; */
+     color: beige;
+ }
 
+/* input section css style ends */
 
